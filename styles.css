@@ -1,0 +1,22 @@
+html {
+    display: table;
+    font-size: 14px;;
+    height: 100%;
+    margin: 20px auto;
+}
+
+body {
+    display: table-cell;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
