@@ -57,7 +57,7 @@ function updateDOM() {
         if (newRecovered[i].innerHTML >= 100) {
             newRecovered[i].classList.add('green');
         }
-        if (totalDeaths[i].innerHTML > totalRecovered[i].innerHTML) {
+        if (totalDeaths[i].innerHTML > totalRecovered[i].innerHTML || totalDeaths[i].innerHTML >= 2000) {
             totalDeaths[i].classList.add('red');
         }
         if (totalRecovered[i].innerHTML > totalDeaths[i].innerHTML) {
