@@ -5,7 +5,7 @@ let container = document.getElementById('container');
 let countryInfo = document.getElementById('country-info');
 
 container.insertAdjacentHTML('beforebegin', `
-    <h1 id='header'>COVID-19 Pandemic Information</h1>
+    <h1 id='header'>COVID-19 Pandemic Statistics</h1>
 `);
 
 fetch(summaryURL)
